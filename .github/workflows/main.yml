@@ -26,8 +26,5 @@ jobs:
       - name: run lint
         run: make lint
 
-      - name: start project
-        run: make start
-
       - name: Print Hello from Hexlet
         uses: hexlet-components/hello-from-hexlet-action@release
